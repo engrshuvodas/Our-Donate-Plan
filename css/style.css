@@ -1,0 +1,461 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 1320px;
+	margin: 0 auto;
+}
+.clr{
+	clear: both;
+}
+					/**============ Start header part ============**/
+header {
+	background: url(../images/donation22.jpg);
+	background-position: bottom;
+	width: 100%;
+	background-size: cover; 
+	color: #fff;
+	padding: 230px 0 150px 0;
+
+}
+header h1{
+	font-size: 70px;
+	font-weight: 650;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	width: 1050px;
+	margin-left: 150px;
+}
+header h3{
+	font-size: 25px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	width: 820px;
+	margin-left: 250px;
+	margin-top: 15px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+header a{
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	margin-left: 550px;
+	padding: 20px 25px;
+	background: #ff5959;
+	border-radius: 5px;
+	font-size: 25px;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+	transition: .4s;
+}
+header a:hover{
+	background: red;
+}
+					/**============ End header part ============**/
+
+
+					/**============ Start todays_donate part ============**/
+.todays_donate{
+	margin: 120px auto;
+	background: #fff;
+	width: 100%;
+}
+.todays_donate .container .title h1{
+	color: #000;
+	font-size: 50px;
+	font-weight: 700;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	width: 885px;
+	margin-left: 220px;
+}
+.todays_donate .container .title h3{
+	color: #707070;
+	font-size: 20px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	width: 600px;
+	text-align: center;
+	margin-left: 370px;
+	margin-top: 10px;
+}
+.todays_donate .container ul{
+	margin-left: 200px;
+}
+.todays_donate .container ul li{
+	list-style: none;
+	float: left;
+	font-size: 45px;
+	font-weight: 700;
+	font-family: 'Open Sans', sans-serif;
+	margin-right: 30px;
+	color: #707070;
+	padding: 45px 20px;
+	background: #fafafa;
+	text-align: center;
+	margin-top: 50px;
+	border-radius: 8px;
+	margin-bottom: 100px;
+	transition: .5s;
+}
+.todays_donate .container ul li.active{
+	color: #ff5959;
+	background: #ffeeee;
+	border: 3px solid #ff5959;
+}
+.todays_donate .container ul li:hover{
+	color: #ff5959;
+	background: #ffeeee;
+	border: 3px solid #ff5959;
+}
+.todays_donate .container form input{
+	width: 1000px;
+	height: 30px;
+	margin-left: 160px;
+	color: #b3b3b3;
+	border-top: 0px;
+	border-right: 0px;
+	border-left: 0px;
+	border-bottom: 3px;
+	border-color: #b3b3b3;
+	border-style: solid;
+	font-size: 20px;
+	font-weight: 500;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+.todays_donate .container a{
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	padding: 15px 25px;
+	background: #ff5959;
+	border-radius: 5px;
+	font-size: 25px;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 50px;
+	margin-left:550px;
+	transition: .4s;
+}
+.todays_donate .container a:hover{
+	background: red;
+}
+					/**============ End todays_donate part ============**/
+
+
+					/**============ Start donate_Plan part ============**/
+.donate_Plan .container .title h1{
+	color: #000;
+	font-size: 50px;
+	font-weight: 700;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	width: 885px;
+	margin-left: 220px;
+}
+.donate_Plan .container .title h3{
+	color: #707070;
+	font-size: 20px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	width: 600px;
+	text-align: center;
+	margin-left: 370px;
+	margin-top: 10px;
+}
+.donate_Plan .container .plan{
+	margin-top: 70px;
+}
+.donate_Plan .container .plan_1{
+	float: left;
+	width: 30%;
+	background: #edf5f6;
+	margin-right: 30px;
+	box-sizing: border-box;
+	padding: 80px 30px 70px 30px;
+	border-radius: 10px;
+}
+.donate_Plan .container .plan_1 h2{
+	font-size: 30px;
+	font-weight: 650;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 20px;
+}
+.donate_Plan .container .plan_1 h4{
+	font-size: 18px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 20px;
+	color: #707070;
+}
+.donate_Plan .container .plan_1 i{
+	color: #000;
+	font-size: 70px;
+}
+.donate_Plan .container .plan_2{
+	float: left;
+	width: 30%;
+	background: #ffeeee;
+	margin-right: 30px;
+	box-sizing: border-box;
+	padding: 80px 30px 70px 30px;
+	border-radius: 10px;
+}
+.donate_Plan .container .plan_2 h2{
+	font-size: 30px;
+	font-weight: 650;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 20px;
+}
+.donate_Plan .container .plan_2 h4{
+	font-size: 18px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 20px;
+	color: #707070;
+}
+.donate_Plan .container .plan_2 i{
+	color: #000;
+	font-size: 70px;
+}
+.donate_Plan .container .plan_3{
+	float: left;
+	width: 30%;
+	background: #fff4d6;
+	margin-right: 30px;
+	box-sizing: border-box;
+	padding: 80px 30px 70px 30px;
+	border-radius: 10px;
+}
+.donate_Plan .container .plan_3 h2{
+	font-size: 30px;
+	font-weight: 650;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 20px;
+}
+.donate_Plan .container .plan_3 h4{
+	font-size: 18px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 20px;
+	color: #707070;
+}
+.donate_Plan .container .plan_3 i{
+	color: #000;
+	font-size: 70px;
+}
+					/**============ End donate_Plan part ============**/
+
+
+					/**============ Start your_donation part ============**/
+.your_donation_part{
+	background: #fff;
+	padding: 150px;
+}
+.your_donation_part .text{
+	width: 40%;
+	float: left;
+	margin-right: 70px;
+}
+.your_donation_part .text h1{
+	color: #000;
+	font-size: 50px;
+	font-weight: 800;
+	font-family: 'Open Sans', sans-serif;
+	width: 600px;
+}
+.your_donation_part .text h3{
+	color: #707070;
+	font-size: 22px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	width: 545px;
+	margin-top: 30px;
+}
+.your_donation_part .text p{
+	color: #707070;
+	font-size: 22px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	width: 540px;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.your_donation_part .container .text a{
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	padding: 20px 25px;
+	background: #ff5959;
+	border-radius: 5px;
+	font-size: 25px;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+	transition: .4s;
+}
+.your_donation_part .container .text a:hover{
+	background: red;
+}
+.your_donation_part img{
+	width: 50%;
+	float: left;
+	border-radius: 10px;
+	height: 500px;
+}
+					/**============ End your_donation part ============**/
+
+
+					/**============ Start your_survive part ============**/
+.your_survive_part{
+	background: #fff;
+}
+.your_survive_part img{
+	width: 50%;
+	float: left;
+	margin-right: 70px;
+	border-radius: 10px;
+	height: 500px;
+}
+.your_survive_part .text{
+	width: 40%;
+	float: left;
+}
+.your_survive_part .text h1{
+	color: #000;
+	font-size: 50px;
+	font-weight: 800;
+	font-family: 'Open Sans', sans-serif;
+	width: 390px;
+}
+.your_survive_part .text h3{
+	color: #707070;
+	font-size: 22px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	width: 545px;
+	margin-top: 30px;
+}
+.your_survive_part .text p{
+	color: #707070;
+	font-size: 22px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	width: 540px;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.your_survive_part .container .text a{
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	padding: 20px 25px;
+	background: #ff5959;
+	border-radius: 5px;
+	font-size: 25px;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+	transition: .4s;
+}
+.your_survive_part .container .text a:hover{
+	background: red;
+}			/**============ End your_survive part ============**/
+
+
+					/**============ Start Update part ============**/
+.update_part{
+	margin-top: 100px;
+}
+.update_part h1{
+	color: #000;
+	font-size: 55px;
+	font-weight: 800;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+.update_part p{
+	color: #707070;
+	font-size: 23px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 15px;
+	text-align: center;
+	width: 950px;
+	margin-left: 200px;
+}
+.update_part h3{
+	color: #707070;
+	font-size: 25px;
+	font-weight: 500;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 25px;
+	text-align: center;
+	width: 950px;
+	margin-left: 180px;
+}
+.update_part .color{
+	background: #fff4d6;
+	width: 900px;
+	margin-top: 50px;
+	margin-left: 200px;
+	padding: 80px 0px;
+}
+
+.update_part .container .color form input{
+	width: 300px;
+	font-size: 20px;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+	background: #d9d9d9;
+	color: #aa9f9f;
+	border: 0px;
+	padding: 10px 15px;
+	float: left;
+	margin-left: 150px;
+	border-radius: 5px;
+}
+.update_part .container .color form .subscribe{
+	font-size: 20px;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+	padding: 10px 50px;
+	background: #ff5959;
+	color: #fff;
+	border-radius: 5px;
+	float: left;
+	transition: .4s;
+}
+.update_part .container .color form .subscribe:hover{
+	background: red;
+}
+					/**============ End Update part ============**/
+
+
+					/**============ Start Footer part ============**/
+footer{
+	width: 100%;
+	padding: 50px 0;
+	background: #0b0d17;
+	margin-top: 100px;
+}
+footer h2{
+	color: #ff5959;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	font-size: 40px;
+	font-style: Italic;
+}
+footer p{
+	color: #fff;
+	text-align: center;
+	margin-top: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+}
+					/**============ End Footer part ============**/
